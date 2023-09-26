@@ -26,7 +26,7 @@ useNewUrlParser:true,useUnifiedTopology:true})
 
 
 app.get("/",(req,res)=>{
-    res.send(hello);
+    res.send("hello");
 })
 //Register a new User
 app.post("/register",async(req,res)=>{
